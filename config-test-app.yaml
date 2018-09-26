@@ -1,2 +1,12 @@
 test:
   config: hehe
+---
+spring:
+  profiles: local
+test:
+  config2: asdf
+---
+spring:
+  profiles: dev
+test:
+  config2: qwer
